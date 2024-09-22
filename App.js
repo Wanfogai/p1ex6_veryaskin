@@ -11,11 +11,9 @@ const Flex = () => {
           flexDirection: 'column',
         },
       ]}>
-      <View style={{flex: 2, backgroundColor: 'red'}} />
-      <View style={{flex: 2, backgroundColor: 'white'}} />
-      <View style={{flex: 3, backgroundColor: 'blue'}} />
-      <View style={{flex: 2, backgroundColor: 'white'}} />
-      <View style={{flex: 2, backgroundColor: 'red'}} />
+      <View style={{flex: 3, backgroundColor: 'red'}} />
+      <View style={{flex: 2, backgroundColor: 'green'}} />
+      <View style={{flex: 3, backgroundColor: 'red'}} />
     </View>
   );
 };
